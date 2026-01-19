@@ -1,0 +1,136 @@
+.inter-uniquifier {
+  font-family: "Inter", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #1A0B2E;
+}
+/* nav section */
+.nav-container{
+    max-width: 75rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+    align-items: center;
+
+}
+.nav-container h3{
+    color: white;
+}
+.nav-container ul{
+    display: flex;
+    max-width: 13.6rem;
+    gap: 2rem;
+    
+
+}
+.nav-container ul li{
+    list-style: none;
+}
+.nav-container ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.nav-container .nav-logo{
+    max-width: 13.6rem;
+    height: 2rem;
+
+}
+.nav-container button img{
+    width: 1rem;
+    height: 1rem;
+}
+.btn{
+    padding: 0.875rem 1rem;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+    display: inline-flex;
+    gap: 8px;
+    background: linear-gradient(25deg,#F7E93F 0%,#FB09B4 51%,#9100F8 100%);
+    border-radius: 10000px;
+    border: none;
+}
+hr{
+    height: 1px;
+}
+/* hero section */
+.hero-section{
+    background-image: url("../assets/hero-bg.png");
+    width: 100%;
+    height: 100Vh;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: fixed;
+}
+#mic{
+    width: 21rem;
+    height: 21rem;
+    margin: 7.31rem auto 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../assets/hero-circle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    position: relative;
+    
+}
+.hero-container .hero-info{
+    color: #FFFFFF;
+    text-align: center;
+}
+.hero-container .hero-info h2{
+    font-size: 3.75rem;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.2rem;
+
+}
+.hero-container .hero-info p{
+font-size: 1rem;
+font-weight: 400;
+color: #ffffffcc;
+margin-bottom: 1.5rem;
+}
+.hero-container .hero-info .all-btn{
+    display: inline-flex;
+    gap: 0.8rem;
+}
+.hero-container .hero-info .all-btn .green-btn{
+    border-radius: 10000px;
+    padding: 0.75rem 1.25rem;
+    display: inline-flex;
+    gap: 0.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #00FF88;
+    border: 1px solid #00FF88;
+    background: rgba(0, 0, 0, 0.08);
+}
+.hero-container .hero-info .all-btn .green-btn img{
+ height: 1rem;
+ width: 1.2rem;
+}
+.hero-container .bag{
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #1A0B2E;
+    padding: 0.5rem 1rem;
+    background-color: #00FF88;
+    box-shadow: 0 0 20px rgba(60, 255, 181, 0.6);
+    width: 4.68rem;
+    border-radius: 1000px;
+    position: absolute;
+    top: 25px;
+    left: 250px;
+    
+
+}
