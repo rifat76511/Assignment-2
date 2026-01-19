@@ -64,15 +64,16 @@ hr{
 .hero-section{
     background-image: url("../assets/hero-bg.png");
     width: 100%;
-    height: 100Vh;
+    /* height: 100Vh; */
     background-repeat: no-repeat;
     background-position: top center;
-    position: fixed;
+    position: relative;
+    padding-top: 8rem;
 }
 #mic{
     width: 21rem;
     height: 21rem;
-    margin: 7.31rem auto 2.5rem;
+    margin: 0 auto 2.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,6 +104,7 @@ margin-bottom: 1.5rem;
 .hero-container .hero-info .all-btn{
     display: inline-flex;
     gap: 0.8rem;
+    margin-bottom: 5.6875rem;
 }
 .hero-container .hero-info .all-btn .green-btn{
     border-radius: 10000px;
@@ -133,4 +135,53 @@ margin-bottom: 1.5rem;
     left: 250px;
     
 
+}
+/* podcast section */
+.podcast-section{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    max-width: 75rem;
+    margin: 3.125rem auto 7.5rem;
+    text-align: center;
+    
+
+}
+.podcast-info h3{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+.podcast-info p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2.3rem;
+    color: #ffffffcc;
+
+}
+.podcast-info{
+    max-width: 50rem;
+    margin: 0 auto;
+}
+#last-line{
+    margin: 2rem auto 5rem;
+}
+.podcast-visual{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 5rem;
+}
+.podcast-visual h2{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #00FF88;
+    margin-bottom: 2.25rem;
+}
+.podcast-visual p{
+     font-size: 1rem;
+     font-weight: 400;
+     line-height: 1.25rem;
+     color: #ffffffcc;
+     margin-bottom: 7.5rem;
 }
