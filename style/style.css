@@ -59,6 +59,8 @@ body{
 }
 hr{
     height: 1px;
+    background-color: #ffffff15;
+    border: none;
 }
 .ham{
     display: none;
@@ -342,6 +344,41 @@ text-align: center;
     padding: 0.625rem;
     height: 2.5rem;
     width: 2.5rem;
+}
+/* footer section */
+footer{
+    background-image: url(../assets/footer-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.footer-section{
+    max-width: 85rem;
+    margin: 0 auto;
+    padding: 7.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.footer-section #logo-footer{
+    width: 25.625rem;
+}
+.footer-section .pod-all, .div-1, .div-2{
+    display: flex;
+    color: #ffffff88;
+    gap: 2.5rem;
+}
+.div-1 span, .div-2 span{
+    display: inline-flex;
+    gap: 0.5rem;
+}
+.footer-section small{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #fafafa94;
 }
 @media screen and (max-width:576px) {
 .none-all li, .nav-container button{
