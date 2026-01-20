@@ -60,6 +60,10 @@ body{
 hr{
     height: 1px;
 }
+.ham{
+    display: none;
+}
+
 /* hero section */
 .hero-section{
     background-image: url("../assets/hero-bg.png");
@@ -131,8 +135,8 @@ margin-bottom: 1.5rem;
     width: 4.68rem;
     border-radius: 1000px;
     position: absolute;
-    top: 25px;
-    left: 250px;
+    top: 1.5625rem;
+    left: 15.625rem;
     
 
 }
@@ -184,4 +188,153 @@ margin-bottom: 1.5rem;
      line-height: 1.25rem;
      color: #ffffffcc;
      margin-bottom: 7.5rem;
+}
+/* card section */
+.choose-section{
+    background-color: #230E3D;
+    padding: 7.5rem;
+}
+.choose-section h2{
+    font-size: 3rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 2.5rem;
+
+}
+.choose-section .card{
+    padding: 2.5rem;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+
+}
+.choose-section .card img{
+    width: 2.75rem;
+    margin: 1rem;
+}
+.choose-section .card h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+.choose-section .card p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #ffffffcc;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    row-gap: 1.875rem;
+    column-gap: 1.875rem;
+    max-width: 75rem;
+    margin: 0 auto;
+}
+.big-card{
+    grid-row: span 2;
+    grid-column: span 1;
+}
+.middeam-card{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.up-padding{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media screen and (max-width:576px) {
+.none-all li, .nav-container button{
+    display: none;
+}
+.ham{
+    display: inline;
+}
+    .podcast-visual{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card-container{
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 0;
+    }
+    .choose-section{
+        padding: 1rem;
+        width: 100%;
+    }
+    .nav-container{
+        padding: 1.125rem 1.25rem;
+    }
+    .hero-section, .podcast-info{
+        padding: 2.5rem 1.25rem;
+    }
+    .display-none{
+        display: none;
+    }
+    .big-card{
+        width: 100%;
+    }
+    .nav-container .nav-logo{
+        width: 40%;
+        height: 100%;
+    }
+    .hero-section{
+        background-size: contain;
+        background-position: top center;
+        margin: 5rem auto -10rem;
+    }
+    #mic{
+        width: 12rem;
+        height: 12rem;
+        margin-top: -3.3rem;
+    }
+    .mic-m{
+        width: 3.2rem;
+    }
+    .hero-container .bag{
+    font-size: 1.125rem;
+   
+    padding: 0.5rem 1rem;
+    
+    width: 4.68rem;
+    
+    top: 0.8rem;
+    left: 8.5rem;
+    
+
+}
+.hero-container .hero-info h2{
+    font-size: 2.75rem;
+    font-weight: 800;
+}
+.podcast-info h3{
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+    font-weight: 600;
+
+}
+.podcast-info p{
+    line-height: normal;
+}
+#last-line{
+    margin: auto;
+}
+.podcast-visual p{
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+}
+.podcast-visual h2{
+    margin: auto;
+    font-weight: 800;
+}
+.choose-section h2{
+    font-size: 2rem;
+
+}
+.podcast-section{
+    margin: 1rem auto;
+}
+                     
 }
