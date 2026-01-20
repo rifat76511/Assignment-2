@@ -336,5 +336,21 @@ margin-bottom: 1.5rem;
 .podcast-section{
     margin: 1rem auto;
 }
+.hero-container .hero-info .all-btn .btn{
+    font-size: 0.8rem;
+    gap: 4px;
+}
+.hero-container .hero-info .all-btn img{
+    height: 100%;
+    width: 10%;
+}
+.hero-container .hero-info .all-btn .green-btn img{
+       
+    height: 70%;
+    width: 15%;
+}
+.hero-container .hero-info .all-btn .green-btn{
+    align-items: center;
+}
                      
 }
