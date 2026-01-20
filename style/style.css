@@ -507,7 +507,8 @@ footer{
     line-height: normal;
 }
 #last-line{
-    margin: auto;
+    margin: 1rem auto 0.8rem ;
+
 }
 .podcast-visual p{
     margin-bottom: 2rem;
