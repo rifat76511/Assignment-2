@@ -545,11 +545,13 @@ footer{
     grid-template-columns: repeat(1, 1fr);
 }
 .video-container .video-card{
-    margin: 0 1.25rem;
+    margin: auto;
+     max-width: 19.78rem;
 }
+
 .video-container .video-card .video iframe{
     border-radius: 1.5rem 1.5rem 0 0;
-    width: 23.78rem;
+    width: 19.78rem;
     height: 11.8rem;
 }
 .video-section h1{
@@ -560,7 +562,7 @@ footer{
        margin-bottom: 2.5rem;
 }
 .video-section{
-    margin: 2.5rem auto;
+    margin: 0 auto;
 }
 .host-container{
     flex-direction: column;
@@ -626,5 +628,8 @@ flex-direction: column;
     .div-1{
         margin-bottom: 1rem;
     }   
+    .container{
+        max-width: 540px;
+    }
    
 }
